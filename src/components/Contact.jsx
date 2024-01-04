@@ -36,9 +36,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_PORTFOLIO_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Zain Shk",
+          to_name: "Abdullah Shaban",
           from_email: form.email,
-          to_email: "zainshk025@gmail.com",
+          to_email: "khalnayek15@gmail.com",
           message: form.message
         },
         import.meta.env.VITE_APP_PORTFOLIO_PUBLIC_KEY
