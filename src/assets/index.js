@@ -56,6 +56,7 @@ import sticky from "./myProjects/sticky.jpg"
 import digidesigner from './myProjects/digidesigner.png'
 import ammalancer from './myProjects/ammalancer.jpeg'
 import dwindle from './myProjects/dwindleSS.png'
+import fishnetwin from './myProjects/fishnetwin.png'
 export {
   logo,
   backend,
@@ -111,5 +112,6 @@ export {
   vqodeLogo,
   digidesigner,
   ammalancer,
-  dwindle
+  dwindle,
+  fishnetwin
 }

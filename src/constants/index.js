@@ -49,7 +49,8 @@ import {
   vqodeLogo,
   digidesigner,
   ammalancer,
-  dwindle
+  dwindle,
+  fishnetwin
 } from "../assets"
 
 export const navLinks = [
@@ -271,22 +272,22 @@ const stacks = [
 ]
 
 const experiences = [
-  {
-    title: "Software Engineer",
-    company_name: "Vqode Solutions",
-    icon: vqodeLogo,
-    iconBg: "#ffffff",
-    date: "May 2023 - Dec 2023",
-    points: [
-      "I have learned to build full-stack apps, development to production and working in agile team in company's flagship product",
-      "Implemented AWS services (S3, EC2) and utilized AWS Lambda and SNS to create a server-less architecture for real-time data processing.",
-      "Incorporated Microsoft SignalR to enable real-time notifications within the application.",
-      "Developed RESTful APIs in Node.js using the Express.js with MongoDB and Firebase as the databases.",
-      "Dedicated to optimizing code performance, identifying and rectifying bugs, and consistently producing efficient testable and reusable code.",
-      "Skilled in developing and designing virtualization tables,interactive rich text editors, dynamic graphs and reports to enhance user experience",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products."
-    ]
-  },
+  // {
+  //   title: "Software Engineer",
+  //   company_name: "Vqode Solutions",
+  //   icon: vqodeLogo,
+  //   iconBg: "#ffffff",
+  //   date: "May 2023 - Dec 2023",
+  //   points: [
+  //     "I have learned to build full-stack apps, development to production and working in agile team in company's flagship product",
+  //     "Implemented AWS services (S3, EC2) and utilized AWS Lambda and SNS to create a server-less architecture for real-time data processing.",
+  //     "Incorporated Microsoft SignalR to enable real-time notifications within the application.",
+  //     "Developed RESTful APIs in Node.js using the Express.js with MongoDB and Firebase as the databases.",
+  //     "Dedicated to optimizing code performance, identifying and rectifying bugs, and consistently producing efficient testable and reusable code.",
+  //     "Skilled in developing and designing virtualization tables,interactive rich text editors, dynamic graphs and reports to enhance user experience",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products."
+  //   ]
+  // },
   {
     title: "Full time Freelancer",
     company_name: "Fiverr",
@@ -509,47 +510,47 @@ const projects = [
   //   image: ptvFlix,
   //   live_link: "https://ptvflix.org/"
   // },
-  {
-    name: "Fameworx",
-    description:
-      "Fameworx Model Agency, Dubai's premier source for models, talents, actors, and events staff. We offer more than just a pretty face. With a diverse pool of highly qualified talents, professionalism is guaranteed. Our user-friendly platform allows clients to browse, connect, and hire models via chat. Models can create portfolios, showcasing their pictures, videos, and experiences, which clients can view and download in PDF format. Backed by a leadership team with real-world expertise in modeling, marketing, events, and fashion, Fameworx is your trusted partner in the fashion and event industry. Join us today and experience excellence in talent sourcing and recruitment.",
-    tags: [
-      {
-        name: "next.js",
-        color: "text-gray-400"
-      },
-      {
-        name: "typescript",
-        color: "text-blue-500"
-      },
-      {
-        name: "tailwind-css",
-        color: "text-blue-600"
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient"
-      },
-      {
-        name: "postgre-sql",
-        color: "text-blue-600"
-      },
-      {
-        name: "express.js",
-        color: "text-gray-300"
-      },
-      {
-        name: "node.js",
-        color: "green-text-gradient"
-      },
-      {
-        name: "aws",
-        color: "text-yellow-500"
-      }
-    ],
-    image: fameworx,
-    live_link: "https://fameworx.vercel.app/"
-  },
+  // {
+  //   name: "Fameworx",
+  //   description:
+  //     "Fameworx Model Agency, Dubai's premier source for models, talents, actors, and events staff. We offer more than just a pretty face. With a diverse pool of highly qualified talents, professionalism is guaranteed. Our user-friendly platform allows clients to browse, connect, and hire models via chat. Models can create portfolios, showcasing their pictures, videos, and experiences, which clients can view and download in PDF format. Backed by a leadership team with real-world expertise in modeling, marketing, events, and fashion, Fameworx is your trusted partner in the fashion and event industry. Join us today and experience excellence in talent sourcing and recruitment.",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "text-gray-400"
+  //     },
+  //     {
+  //       name: "typescript",
+  //       color: "text-blue-500"
+  //     },
+  //     {
+  //       name: "tailwind-css",
+  //       color: "text-blue-600"
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient"
+  //     },
+  //     {
+  //       name: "postgre-sql",
+  //       color: "text-blue-600"
+  //     },
+  //     {
+  //       name: "express.js",
+  //       color: "text-gray-300"
+  //     },
+  //     {
+  //       name: "node.js",
+  //       color: "green-text-gradient"
+  //     },
+  //     {
+  //       name: "aws",
+  //       color: "text-yellow-500"
+  //     }
+  //   ],
+  //   image: fameworx,
+  //   live_link: "https://fameworx.vercel.app/"
+  // },
   {
     name: "Neurative AI",
     description: `Neurative AI, the ultimate text-to-speech web app that gives you complete control over your speech synthesis experience. With an array of powerful features, Neurative AI allows users to effortlessly convert text into high-quality audio. Choose from a variety of emotions and tones to personalize your speech, adding nuances like breathing, pauses, and speed adjustments to craft the perfect delivery.
@@ -707,47 +708,47 @@ const projects = [
   //   image: stackstream,
   //   live_link: "https://stagingstackstream.mergestack.com/"
   // },
-  {
-    name: "Float",
-    description:
-      "Float.us is your go-to for easy and enjoyable rides on seas, rivers, or lakes. Boat owners sign up hassle-free, users request rides with pick-up and drop-off points, and Captains bid for the trip. Our secure platform offers robust tracking, clear data visuals, and extra features for a top-notch experience. Float.us isn't just about getting from A to B—it's your ticket to hassle-free aquatic adventures. Join our community, where sea, river, or lake travel is simple, safe, and loads of fun. Explore the waters with Float.us, where every journey is a breeze.",
-    tags: [
-      {
-        name: "next.js",
-        color: "text-gray-400"
-      },
-      {
-        name: "contextApi",
-        color: "text-pink-300"
-      },
-      {
-        name: "mui",
-        color: "text-blue-400"
-      },
-      {
-        name: "bootstrap",
-        color: "text-blue-600"
-      },
-      {
-        name: "prisma",
-        color: "text-blue-400"
-      },
-      {
-        name: "mongodb",
-        color: "text-green-400"
-      },
-      {
-        name: "express.js",
-        color: "text-gray-300"
-      },
-      {
-        name: "node.js",
-        color: "green-text-gradient"
-      }
-    ],
-    image: float,
-    live_link: "https://www.float.us/"
-  },
+  // {
+  //   name: "Float",
+  //   description:
+  //     "Float.us is your go-to for easy and enjoyable rides on seas, rivers, or lakes. Boat owners sign up hassle-free, users request rides with pick-up and drop-off points, and Captains bid for the trip. Our secure platform offers robust tracking, clear data visuals, and extra features for a top-notch experience. Float.us isn't just about getting from A to B—it's your ticket to hassle-free aquatic adventures. Join our community, where sea, river, or lake travel is simple, safe, and loads of fun. Explore the waters with Float.us, where every journey is a breeze.",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "text-gray-400"
+  //     },
+  //     {
+  //       name: "contextApi",
+  //       color: "text-pink-300"
+  //     },
+  //     {
+  //       name: "mui",
+  //       color: "text-blue-400"
+  //     },
+  //     {
+  //       name: "bootstrap",
+  //       color: "text-blue-600"
+  //     },
+  //     {
+  //       name: "prisma",
+  //       color: "text-blue-400"
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "text-green-400"
+  //     },
+  //     {
+  //       name: "express.js",
+  //       color: "text-gray-300"
+  //     },
+  //     {
+  //       name: "node.js",
+  //       color: "green-text-gradient"
+  //     }
+  //   ],
+  //   image: float,
+  //   live_link: "https://www.float.us/"
+  // },
   {
     name: "Ammalancer",
     description:
@@ -888,6 +889,42 @@ const projects = [
     ],
     image: zenHair,
     live_link: "https://www.zenhair.co/"
+  },
+  {
+    name: "Fishnet Win",
+    description: `Fishnet Win: Your gateway to buy casino coins, and play games , it has platforms , messages, verification, web 3 payment integrated . with admin panel`,
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "redux-thunk",
+        color: "text-blue-300"
+      },
+      {
+        name: "reactstrap",
+        color: "text-green-400"
+      },
+      {
+        name: "bootstrap",
+        color: "text-blue-400"
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient"
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient"
+      },
+      {
+        name: "mongodb",
+        color: "text-green-400"
+      }
+    ],
+    image: fishnetwin,
+    live_link: "https://www.fishnetwin.com"
   }
 ]
 export { services, technologies, stacks, experiences, testimonials, projects }
