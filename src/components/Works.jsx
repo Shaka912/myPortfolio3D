@@ -1,23 +1,23 @@
-import React from "react"
-import Tilt from "react-tilt"
-import { motion } from "framer-motion"
+import React from "react";
+import Tilt from "react-tilt";
+import { motion } from "framer-motion";
 
-import { styles } from "../styles"
-import { SectionWrapper } from "../hoc"
-import { projects } from "../constants"
-import { fadeIn, textVariant } from "../utils/motion"
+import { styles } from "../styles";
+import { SectionWrapper } from "../hoc";
+import { projects } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ index, name, description, tags, image, live_link }) => {
-  const [showFullDescription, setShowFullDescription] = React.useState(false)
-  const [liveDemoVisibility, setLiveDemoVisibility] = React.useState(false)
+  const [showFullDescription, setShowFullDescription] = React.useState(false);
+  const [liveDemoVisibility, setLiveDemoVisibility] = React.useState(false);
 
   const toggleDescription = () => {
-    setShowFullDescription(!showFullDescription)
-  }
+    setShowFullDescription(!showFullDescription);
+  };
 
   const descriptionToShow = showFullDescription
     ? description
-    : description.split(" ").slice(0, 20).join(" ")
+    : description.split(" ").slice(0, 20).join(" ");
 
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -25,7 +25,7 @@ const ProjectCard = ({ index, name, description, tags, image, live_link }) => {
         options={{
           max: 45,
           scale: 1,
-          speed: 450
+          speed: 450,
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
@@ -86,7 +86,7 @@ const ProjectCard = ({ index, name, description, tags, image, live_link }) => {
           </p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map(tag => (
+          {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
               className={`text-[14px] ${tag.color}`}
@@ -97,8 +97,8 @@ const ProjectCard = ({ index, name, description, tags, image, live_link }) => {
         </div>
       </Tilt>
     </motion.div>
-  )
-}
+  );
+};
 
 const Works = () => {
   return (
@@ -127,7 +127,7 @@ const Works = () => {
         ))}
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SectionWrapper(Works, "")
+export default SectionWrapper(Works, "");
