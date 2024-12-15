@@ -290,8 +290,8 @@ const experiences = [
   // },
   {
     title: "Senior Software Engineer",
-    company_name: "Bla Agency",
-    icon: vqodeLogo,
+    company_name: "Depart",
+    icon: "https://www.wearedepart.com/logo.svg",
     iconBg: "#ffffff",
     date: "May 2024 - Oct 2024",
     points: [
