@@ -50,234 +50,250 @@ import {
   digidesigner,
   ammalancer,
   dwindle,
-  fishnetwin
-} from "../assets"
+  fishnetwin,
+} from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About"
+    title: "About",
   },
   {
     id: "work",
-    title: "Work"
+    title: "Work",
   },
   {
     id: "contact",
-    title: "Contact"
-  }
-]
+    title: "Contact",
+  },
+];
 
 const services = [
   {
     title: "Software Engineer",
-    icon: creator
+    icon: creator,
   },
   {
     title: "React Js / React Native / Next Js Developer",
-    icon: mobile
+    icon: mobile,
   },
   {
     title: "Native iOS Developer",
-    icon: backend
+    icon: backend,
   },
   {
     title: "Full Stack Web Developer",
-    icon: web
-  }
-]
+    icon: web,
+  },
+];
 
 const technologies = [
   {
     name: "HTML 5",
-    icon: html
+    icon: html,
   },
   {
     name: "CSS 3",
-    icon: css
+    icon: css,
   },
   {
     name: "JavaScript",
-    icon: javascript
+    icon: javascript,
   },
   {
     name: "TypeScript",
-    icon: typescript
+    icon: typescript,
   },
   {
     name: "React JS",
-    icon: reactjs
+    icon: reactjs,
   },
   {
     name: "Redux Toolkit",
-    icon: redux
+    icon: redux,
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind
+    icon: tailwind,
   },
   {
     name: "Node JS",
-    icon: nodejs
+    icon: nodejs,
   },
   {
     name: "MongoDB",
-    icon: mongodb
+    icon: mongodb,
   },
   {
     name: "Ant Design",
-    icon: antDesign
+    icon: antDesign,
   },
   {
     name: "git",
-    icon: git
-  }
-]
+    icon: git,
+  },
+];
 const stacks = [
   {
     name: "HTML 5",
     color: "coral",
-    icon: html
+    icon: html,
   },
   {
     name: "CSS 3",
     color: "#005eb7",
-    icon: css
+    icon: css,
   },
   {
     name: "JavaScript",
     color: "yellow",
-    icon: javascript
+    icon: javascript,
   },
   {
     name: "TypeScript",
     color: "blue",
-    icon: typescript
+    icon: typescript,
   },
   {
     name: "React JS",
     color: "#358cdd",
-    icon: reactjs
+    icon: reactjs,
   },
   {
     name: "Vue JS",
     color: "#3fb984",
-    icon: vuejs
+    icon: vuejs,
   },
   {
     name: "Next JS",
     color: "#4f4f4f",
-    icon: nextjs
+    icon: nextjs,
   },
   {
     name: "Redux Toolkit",
     color: "purple",
-    icon: redux
+    icon: redux,
   },
   {
     name: "Redux Saga",
     color: "#02e27a",
-    icon: saga
+    icon: saga,
   },
   {
     name: "Redux Thunk",
     color: "#8e6af2",
-    icon: thunk
+    icon: thunk,
   },
   {
     name: "VueX",
     color: "#31475e",
-    icon: vuex
+    icon: vuex,
   },
   {
     name: "Bootstrap",
     color: "#6145ad",
-    icon: bootstrap
+    icon: bootstrap,
   },
   {
     name: "Tailwind CSS",
     color: "#45c7f7",
-    icon: tailwind
+    icon: tailwind,
   },
   {
     name: "Material UI",
     color: "#074ebf",
-    icon: materialUi
+    icon: materialUi,
   },
   {
     name: "Ant Design",
     color: "#ed5569",
-    icon: antDesign
+    icon: antDesign,
   },
   {
     name: "Materialize CSS",
     color: "pink",
-    icon: materializecss
+    icon: materializecss,
   },
   {
     name: "Reactstrap",
     color: "#30c9bf",
-    icon: reactstrap
+    icon: reactstrap,
   },
   {
     name: "SCSS",
     color: "#ed55c7",
-    icon: scss
+    icon: scss,
   },
   {
     name: "styled-components",
     color: "#84216b",
-    icon: styledcomponents
+    icon: styledcomponents,
   },
   {
     name: "Node JS",
     color: "green",
-    icon: nodejs
+    icon: nodejs,
   },
   {
     name: "Express JS",
     color: "grey",
-    icon: express
+    icon: express,
   },
   {
     name: "MongoDB",
     color: "#03ba19",
-    icon: mongodb
+    icon: mongodb,
   },
   {
     name: "Firebase",
     color: "#f7c23b",
-    icon: firebase
+    icon: firebase,
   },
   {
     name: "AWS",
     color: "orange",
-    icon: aws
+    icon: aws,
   },
   {
     name: "Microsoft Azure",
     color: "#6ea8dd",
-    icon: azure
+    icon: azure,
   },
   {
     name: "Vercel",
     color: "#4f4f4f",
-    icon: vercel
+    icon: vercel,
   },
   {
     name: "git",
     color: "red",
-    icon: git
-  }
-]
+    icon: git,
+  },
+];
 
 const experiences = [
+  // {
+  //   title: "Software Engineer",
+  //   company_name: "Vqode Solutions",
+  //   icon: vqodeLogo,
+  //   iconBg: "#ffffff",
+  //   date: "May 2023 - Dec 2023",
+  //   points: [
+  //     "I have learned to build full-stack apps, development to production and working in agile team in company's flagship product",
+  //     "Implemented AWS services (S3, EC2) and utilized AWS Lambda and SNS to create a server-less architecture for real-time data processing.",
+  //     "Incorporated Microsoft SignalR to enable real-time notifications within the application.",
+  //     "Developed RESTful APIs in Node.js using the Express.js with MongoDB and Firebase as the databases.",
+  //     "Dedicated to optimizing code performance, identifying and rectifying bugs, and consistently producing efficient testable and reusable code.",
+  //     "Skilled in developing and designing virtualization tables,interactive rich text editors, dynamic graphs and reports to enhance user experience",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products."
+  //   ]
+  // },
   {
-    title: "Software Engineer",
-    company_name: "Vqode Solutions",
+    title: "Senior Software Engineer",
+    company_name: "Bla Agency",
     icon: vqodeLogo,
     iconBg: "#ffffff",
-    date: "May 2023 - Dec 2023",
+    date: "May 2024 - Oct 2024",
     points: [
       "I have learned to build full-stack apps, development to production and working in agile team in company's flagship product",
       "Implemented AWS services (S3, EC2) and utilized AWS Lambda and SNS to create a server-less architecture for real-time data processing.",
@@ -285,8 +301,8 @@ const experiences = [
       "Developed RESTful APIs in Node.js using the Express.js with MongoDB and Firebase as the databases.",
       "Dedicated to optimizing code performance, identifying and rectifying bugs, and consistently producing efficient testable and reusable code.",
       "Skilled in developing and designing virtualization tables,interactive rich text editors, dynamic graphs and reports to enhance user experience",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products."
-    ]
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    ],
   },
   {
     title: "Full time Freelancer",
@@ -301,7 +317,7 @@ const experiences = [
       "I have also created a personal content management tool that helps user organize and manage  files, notes, tasks, and deadlines.",
       "Digi Designer, a web app that uses AI to generate images based on user prompts,",
       "Dwindle, created om iOS swift, which is a fintech app , helps user in their finances.",
-    ]
+    ],
   },
   {
     title: "Junior Software Engineer",
@@ -317,8 +333,8 @@ const experiences = [
       "Bundled React.js applications using Webpack to optimize performance and streamline the deployment process.",
       "Participating in code reviews and providing constructive feedback to other developers.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Proficient in utilizing Git version control and collaboration tools such as GitHub and Bitbucket to effectively manage codebases and foster seamless team collaboration."
-    ]
+      "Proficient in utilizing Git version control and collaboration tools such as GitHub and Bitbucket to effectively manage codebases and foster seamless team collaboration.",
+    ],
   },
   {
     title: "My Achievements",
@@ -330,9 +346,9 @@ const experiences = [
       "Completed MERN Stack Development (4-months) certification from GamicaCloud (GC-IT) Bootcamp (Aug-2021).",
       "Completed cs50 from Harvard University USA (May-2021).",
       "Achieved Level one seller on Fiverr (Sep 2023) ",
-    ]
-  }
-]
+    ],
+  },
+];
 
 const testimonials = [
   {
@@ -341,7 +357,7 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg"
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
@@ -349,7 +365,7 @@ const testimonials = [
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg"
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
@@ -357,9 +373,9 @@ const testimonials = [
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg"
-  }
-]
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+];
 
 const projects = [
   {
@@ -369,39 +385,39 @@ const projects = [
     tags: [
       {
         name: "react.js",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "redux-saga",
-        color: "text-green-300"
+        color: "text-green-300",
       },
       {
         name: "ant-design",
-        color: "text-red-600"
+        color: "text-red-600",
       },
       {
         name: "scss",
-        color: "pink-text-gradient"
+        color: "pink-text-gradient",
       },
       {
         name: "python",
-        color: "text-blue-300"
+        color: "text-blue-300",
       },
       {
         name: "ML",
-        color: "text-blue-500"
+        color: "text-blue-500",
       },
       {
         name: "mongodb",
-        color: "text-green-400"
+        color: "text-green-400",
       },
       {
         name: "node.js",
-        color: "green-text-gradient"
-      }
+        color: "green-text-gradient",
+      },
     ],
     image: digidesigner,
-    live_link: "https://digidesigner.net/"
+    live_link: "https://digidesigner.net/",
   },
   {
     name: "Sticky Tasks",
@@ -410,35 +426,35 @@ const projects = [
     tags: [
       {
         name: "react.js",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "redux-thunk",
-        color: "text-blue-300"
+        color: "text-blue-300",
       },
       {
         name: "reactstrap",
-        color: "text-green-400"
+        color: "text-green-400",
       },
       {
         name: "mui",
-        color: "text-blue-400"
+        color: "text-blue-400",
       },
       {
         name: "scss",
-        color: "pink-text-gradient"
+        color: "pink-text-gradient",
       },
       {
         name: "aws",
-        color: "text-yellow-500"
+        color: "text-yellow-500",
       },
       {
         name: ".net",
-        color: "text-green-700"
-      }
+        color: "text-green-700",
+      },
     ],
     image: sticky,
-    live_link: "https://app.stickytasks.com/login"
+    live_link: "https://app.stickytasks.com/login",
   },
   {
     name: "Nest 360",
@@ -447,39 +463,39 @@ const projects = [
     tags: [
       {
         name: "react.js",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "redux-saga",
-        color: "text-green-300"
+        color: "text-green-300",
       },
       {
         name: "ant-design",
-        color: "text-red-600"
+        color: "text-red-600",
       },
       {
         name: "scss",
-        color: "pink-text-gradient"
+        color: "pink-text-gradient",
       },
       {
         name: "mongodb",
-        color: "text-green-400"
+        color: "text-green-400",
       },
       {
         name: "express.js",
-        color: "text-gray-300"
+        color: "text-gray-300",
       },
       {
         name: "node.js",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "aws",
-        color: "text-yellow-500"
-      }
+        color: "text-yellow-500",
+      },
     ],
     image: nest360,
-    live_link: ""
+    live_link: "",
   },
   // {
   //   name: "PTV Flix",
@@ -510,47 +526,47 @@ const projects = [
   //   image: ptvFlix,
   //   live_link: "https://ptvflix.org/"
   // },
-  {
-    name: "Fameworx",
-    description:
-      "Fameworx Model Agency, Dubai's premier source for models, talents, actors, and events staff. We offer more than just a pretty face. With a diverse pool of highly qualified talents, professionalism is guaranteed. Our user-friendly platform allows clients to browse, connect, and hire models via chat. Models can create portfolios, showcasing their pictures, videos, and experiences, which clients can view and download in PDF format. Backed by a leadership team with real-world expertise in modeling, marketing, events, and fashion, Fameworx is your trusted partner in the fashion and event industry. Join us today and experience excellence in talent sourcing and recruitment.",
-    tags: [
-      {
-        name: "next.js",
-        color: "text-gray-400"
-      },
-      {
-        name: "typescript",
-        color: "text-blue-500"
-      },
-      {
-        name: "tailwind-css",
-        color: "text-blue-600"
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient"
-      },
-      {
-        name: "postgre-sql",
-        color: "text-blue-600"
-      },
-      {
-        name: "express.js",
-        color: "text-gray-300"
-      },
-      {
-        name: "node.js",
-        color: "green-text-gradient"
-      },
-      {
-        name: "aws",
-        color: "text-yellow-500"
-      }
-    ],
-    image: fameworx,
-    live_link: "https://fameworx.vercel.app/"
-  },
+  // {
+  //   name: "Fameworx",
+  //   description:
+  //     "Fameworx Model Agency, Dubai's premier source for models, talents, actors, and events staff. We offer more than just a pretty face. With a diverse pool of highly qualified talents, professionalism is guaranteed. Our user-friendly platform allows clients to browse, connect, and hire models via chat. Models can create portfolios, showcasing their pictures, videos, and experiences, which clients can view and download in PDF format. Backed by a leadership team with real-world expertise in modeling, marketing, events, and fashion, Fameworx is your trusted partner in the fashion and event industry. Join us today and experience excellence in talent sourcing and recruitment.",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "text-gray-400"
+  //     },
+  //     {
+  //       name: "typescript",
+  //       color: "text-blue-500"
+  //     },
+  //     {
+  //       name: "tailwind-css",
+  //       color: "text-blue-600"
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient"
+  //     },
+  //     {
+  //       name: "postgre-sql",
+  //       color: "text-blue-600"
+  //     },
+  //     {
+  //       name: "express.js",
+  //       color: "text-gray-300"
+  //     },
+  //     {
+  //       name: "node.js",
+  //       color: "green-text-gradient"
+  //     },
+  //     {
+  //       name: "aws",
+  //       color: "text-yellow-500"
+  //     }
+  //   ],
+  //   image: fameworx,
+  //   live_link: "https://fameworx.vercel.app/"
+  // },
   {
     name: "Neurative AI",
     description: `Neurative AI, the ultimate text-to-speech web app that gives you complete control over your speech synthesis experience. With an array of powerful features, Neurative AI allows users to effortlessly convert text into high-quality audio. Choose from a variety of emotions and tones to personalize your speech, adding nuances like breathing, pauses, and speed adjustments to craft the perfect delivery.
@@ -559,39 +575,39 @@ const projects = [
     tags: [
       {
         name: "react.js",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "redux-thunk",
-        color: "text-blue-300"
+        color: "text-blue-300",
       },
       {
         name: "ant-design",
-        color: "text-red-600"
+        color: "text-red-600",
       },
       {
         name: "scss",
-        color: "pink-text-gradient"
+        color: "pink-text-gradient",
       },
       {
         name: "mongodb",
-        color: "text-green-400"
+        color: "text-green-400",
       },
       {
         name: "node.js",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "aws",
-        color: "text-yellow-500"
+        color: "text-yellow-500",
       },
       {
         name: "azure",
-        color: "text-blue-500"
-      }
+        color: "text-blue-500",
+      },
     ],
     image: neuroStack,
-    live_link: "https://app.neurative.ai/"
+    live_link: "https://app.neurative.ai/",
   },
   // {
   //   name: "IMS",
@@ -678,110 +694,146 @@ const projects = [
     tags: [
       {
         name: "react.js",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "redux-saga",
-        color: "text-green-300"
+        color: "text-green-300",
       },
       {
         name: "mui",
-        color: "text-blue-400"
+        color: "text-blue-400",
       },
       {
         name: "scss",
-        color: "pink-text-gradient"
+        color: "pink-text-gradient",
       },
       {
         name: "mongodb",
-        color: "text-green-400"
+        color: "text-green-400",
       },
       {
         name: "express.js",
-        color: "text-gray-300"
+        color: "text-gray-300",
       },
       {
         name: "node.js",
-        color: "green-text-gradient"
-      }
+        color: "green-text-gradient",
+      },
     ],
     image: stackstream,
-    live_link: "https://stagingstackstream.mergestack.com/"
+    live_link: "https://stagingstackstream.mergestack.com/",
   },
   {
-    name: "Float",
-    description:
-      "Float.us is your go-to for easy and enjoyable rides on seas, rivers, or lakes. Boat owners sign up hassle-free, users request rides with pick-up and drop-off points, and Captains bid for the trip. Our secure platform offers robust tracking, clear data visuals, and extra features for a top-notch experience. Float.us isn't just about getting from A to B—it's your ticket to hassle-free aquatic adventures. Join our community, where sea, river, or lake travel is simple, safe, and loads of fun. Explore the waters with Float.us, where every journey is a breeze.",
+    name: "AfterLib",
+    description: `AfterLib: Your Goto Advertising Library . Monitor trends , analyze competitors , and elevate your strategy with in-depth ad insights and powerful features you have never seen before.`,
     tags: [
       {
-        name: "next.js",
-        color: "text-gray-400"
+        name: "react.js",
+        color: "blue-text-gradient",
       },
       {
-        name: "contextApi",
-        color: "text-pink-300"
+        name: "redux-saga",
+        color: "text-green-300",
       },
       {
         name: "mui",
-        color: "text-blue-400"
+        color: "text-blue-400",
       },
       {
-        name: "bootstrap",
-        color: "text-blue-600"
-      },
-      {
-        name: "prisma",
-        color: "text-blue-400"
+        name: "scss",
+        color: "pink-text-gradient",
       },
       {
         name: "mongodb",
-        color: "text-green-400"
+        color: "text-green-400",
       },
       {
         name: "express.js",
-        color: "text-gray-300"
+        color: "text-gray-300",
       },
       {
         name: "node.js",
-        color: "green-text-gradient"
-      }
+        color: "green-text-gradient",
+      },
     ],
-    image: float,
-    live_link: "https://www.float.us/"
+    image: stackstream,
+    live_link: "https://afterlib.com/",
   },
+  // {
+  //   name: "Float",
+  //   description:
+  //     "Float.us is your go-to for easy and enjoyable rides on seas, rivers, or lakes. Boat owners sign up hassle-free, users request rides with pick-up and drop-off points, and Captains bid for the trip. Our secure platform offers robust tracking, clear data visuals, and extra features for a top-notch experience. Float.us isn't just about getting from A to B—it's your ticket to hassle-free aquatic adventures. Join our community, where sea, river, or lake travel is simple, safe, and loads of fun. Explore the waters with Float.us, where every journey is a breeze.",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "text-gray-400"
+  //     },
+  //     {
+  //       name: "contextApi",
+  //       color: "text-pink-300"
+  //     },
+  //     {
+  //       name: "mui",
+  //       color: "text-blue-400"
+  //     },
+  //     {
+  //       name: "bootstrap",
+  //       color: "text-blue-600"
+  //     },
+  //     {
+  //       name: "prisma",
+  //       color: "text-blue-400"
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "text-green-400"
+  //     },
+  //     {
+  //       name: "express.js",
+  //       color: "text-gray-300"
+  //     },
+  //     {
+  //       name: "node.js",
+  //       color: "green-text-gradient"
+  //     }
+  //   ],
+  //   image: float,
+  //   live_link: "https://www.float.us/"
+  // },
   {
-    name: "Ammalancer",
+    name: "911 vault",
     description:
-      "Ammalancer is a freelancing platform that combines the best features of Fiverr, Upwork, Jira and NFT marketplaces. With Ammalancer, you can find and hire talented freelancers for any project, create and manage your own company with agile tools, and sell or buy digital products as non-fungible tokens. Ammalancer is the ultimate solution for online work and commerce.",
+      "911 vault offer a simple solution to a complex problem . 911 vault Vault allows you to create and distribute an encrypted vault today… that can only be opened in the future by people you choose if the event occurs that you planned for",
     tags: [
       {
         name: "React native",
-        color: "text-gray-400"
+        color: "text-gray-400",
       },
       {
         name: "contextApi",
-        color: "text-pink-300"
+        color: "text-pink-300",
       },
 
       {
         name: "socket.io",
-        color: "text-blue-400"
+        color: "text-blue-400",
       },
       {
         name: "mongodb",
-        color: "text-green-400"
+        color: "text-green-400",
       },
       {
         name: "express.js",
-        color: "text-gray-300"
+        color: "text-gray-300",
       },
       {
         name: "node.js",
-        color: "green-text-gradient"
-      }
+        color: "green-text-gradient",
+      },
     ],
     image: ammalancer,
-    live_link: "#"
+    live_link: "https://911vault.com/",
   },
   {
     name: "Dwindle",
@@ -790,32 +842,32 @@ const projects = [
     tags: [
       {
         name: "Swift",
-        color: "text-gray-400"
+        color: "text-gray-400",
       },
       {
         name: "Firebase",
-        color: "text-pink-300"
+        color: "text-pink-300",
       },
 
       {
         name: "Mx api",
-        color: "text-blue-400"
+        color: "text-blue-400",
       },
       {
         name: "AWS",
-        color: "text-green-400"
+        color: "text-green-400",
       },
       {
         name: "Lambda",
-        color: "text-gray-300"
+        color: "text-gray-300",
       },
       {
         name: "Method api",
-        color: "green-text-gradient"
-      }
+        color: "green-text-gradient",
+      },
     ],
     image: dwindle,
-    live_link: "#"
+    live_link: "#",
   },
   // {
   //   name: "Hivenest",
@@ -860,35 +912,35 @@ const projects = [
     tags: [
       {
         name: "react.js",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "redux-thunk",
-        color: "text-blue-300"
+        color: "text-blue-300",
       },
       {
         name: "reactstrap",
-        color: "text-green-400"
+        color: "text-green-400",
       },
       {
         name: "bootstrap",
-        color: "text-blue-400"
+        color: "text-blue-400",
       },
       {
         name: "scss",
-        color: "pink-text-gradient"
+        color: "pink-text-gradient",
       },
       {
         name: "node.js",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "mongodb",
-        color: "text-green-400"
-      }
+        color: "text-green-400",
+      },
     ],
     image: zenHair,
-    live_link: "https://www.zenhair.co/"
+    live_link: "https://www.zenhair.co/",
   },
   {
     name: "Fishnet Win",
@@ -896,35 +948,35 @@ const projects = [
     tags: [
       {
         name: "react.js",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "redux-thunk",
-        color: "text-blue-300"
+        color: "text-blue-300",
       },
       {
         name: "reactstrap",
-        color: "text-green-400"
+        color: "text-green-400",
       },
       {
         name: "bootstrap",
-        color: "text-blue-400"
+        color: "text-blue-400",
       },
       {
         name: "scss",
-        color: "pink-text-gradient"
+        color: "pink-text-gradient",
       },
       {
         name: "node.js",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "mongodb",
-        color: "text-green-400"
-      }
+        color: "text-green-400",
+      },
     ],
     image: fishnetwin,
-    live_link: "https://www.fishnetwin.com"
-  }
-]
-export { services, technologies, stacks, experiences, testimonials, projects }
+    live_link: "https://www.fishnetwin.com",
+  },
+];
+export { services, technologies, stacks, experiences, testimonials, projects };
