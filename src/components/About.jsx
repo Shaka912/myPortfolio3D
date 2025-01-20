@@ -1,11 +1,11 @@
-import React from "react"
-import Tilt from "react-tilt"
-import { motion } from "framer-motion"
+import React from "react";
+import Tilt from "react-tilt";
+import { motion } from "framer-motion";
 
-import { styles } from "../styles"
-import { services } from "../constants"
-import { SectionWrapper } from "../hoc"
-import { fadeIn, textVariant } from "../utils/motion"
+import { styles } from "../styles";
+import { services } from "../constants";
+import { SectionWrapper } from "../hoc";
+import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -17,7 +17,7 @@ const ServiceCard = ({ index, title, icon }) => (
         options={{
           max: 45,
           scale: 1,
-          speed: 450
+          speed: 450,
         }}
         className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
@@ -33,7 +33,7 @@ const ServiceCard = ({ index, title, icon }) => (
       </div>
     </motion.div>
   </Tilt>
-)
+);
 
 const About = () => {
   return (
@@ -47,12 +47,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled mobile and web developer with 2+ years experience in JavaScript
-        and TypeScript, along with expertise in leading frameworks such as
-        React.js, Next.js, React native, Swift and Node.js, and a deep understanding of the
-        MERN Stack. My proficiency as a quick learner enables me to collaborate
-        seamlessly with teams and clients, creating efficient, scalable, and
-        user-friendly solutions that effectively solve real-world challenges!
+        I am a highly skilled Senior Full-Stack Developer with 4+ years of
+        experience in mobile and web development, specializing in JavaScript,
+        TypeScript, and modern frameworks such as React.js, Next.js, Svelte,
+        SvelteKit, React Native, Swift, Node.js, and Python with Django. My deep
+        expertise in the MERN stack, coupled with proficiency in Python and
+        Django, enables me to build efficient, scalable, and user-friendly
+        solutions tailored to solve real-world challenges. As a quick learner
+        and effective collaborator, I excel in working with teams and clients,
+        consistently delivering high-quality, innovative results that drive
+        success.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -61,7 +65,7 @@ const About = () => {
         ))}
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SectionWrapper(About, "about")
+export default SectionWrapper(About, "about");
